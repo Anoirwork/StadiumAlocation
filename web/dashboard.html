@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <title>OVictoire</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/lib/calendar2/semantic.ui.min.css" rel="stylesheet">
+    <link href="css/lib/calendar2/pignose.calendar.min.css" rel="stylesheet">
+    <link href="css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/lib/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="css/helper.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:** -->
+    <!--[if lt IE 9]>
+    <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header fix-sidebar">
+    <!-- Preloader - style you can find in spinners.css -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+    </div>
+    <!-- Main wrapper  -->
+    <div id="main-wrapper">
+        <!-- header header  -->
+        <div class="header">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- Logo -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <!--End Logo icon -->
+                        <!-- Logo text -->
+                        <span><img src="images/logo-text.png" height="30" width="150" alt="homepage" class="dark-logo" /></span>
+                    </a>
+                </div>
+                <!-- End Logo -->
+                <div class="navbar-collapse">
+                    <!-- toggle and nav items -->
+                    
+                </div>
+            </nav>
+        </div>
+        <!-- End header header -->
+        <!-- Left Sidebar  -->
+        <div class="left-sidebar" style="overflow: visible;">
+            <!-- Sidebar scroll-->
+            <div class="slimScrollDiv" style="position: relative; overflow: visible; width: auto; height: 100%;">
+                <div class="scroll-sidebar" style="overflow: visible hidden; width: auto; height: 100%;">
+                    <!-- Sidebar navigation-->
+                    <nav class="sidebar-nav active">
+                        <ul id="sidebarnav" class="in">
+                            <li class="nav-devider"></li>
+                            <li class="nav-label">Home</li>
+                            <li> <a class="has-arrow  " href="./dashboard.html" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard</span></a>
+                            </li>
+                            <li> <a class="has-arrow  " href="./add-stadium.html" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Add Stadium</span></a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                    <!-- End Sidebar navigation -->
+                </div>
+                <div class="slimScrollBar"
+                    style="background: rgb(220, 220, 220); width: 5px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; left: 1px; height: 889px;">
+                </div>
+                <div class="slimScrollRail"
+                    style="width: 5px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; left: 1px;">
+                </div>
+            </div>
+            <!-- End Sidebar scroll-->
+        </div>
+        <!-- End Left Sidebar  -->
+        <!-- Page wrapper  -->
+        <div class="page-wrapper">
+            <!-- Bread crumb -->
+            <div class="row page-titles">
+                <div class="col-md-5 align-self-center">
+                    <h3 class="text-primary">Dashboard</h3>
+                </div>
+                <div class="col-md-7 align-self-center">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                        <li class="breadcrumb-item active">Dashboard</li>
+                    </ol>
+                </div>
+            </div>
+            <!-- End Bread crumb -->
+            <!-- Container fluid  -->
+            <div class="container-fluid">
+                <!-- Start Page Content -->
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card p-30">
+                            <div class="media">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="fa fa-usd f-s-40 color-primary"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+                                    <h2>960 DT</h2>
+                                    <p class="m-b-0">Total Revenue</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-30">
+                            <div class="media">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="fa fa-shopping-cart f-s-40 color-success"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+                                    <h2>16</h2>
+                                    <p class="m-b-0">Game played</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-30">
+                            <div class="media">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="fa fa-archive f-s-40 color-warning"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+                                    <h2>2</h2>
+                                    <p class="m-b-0">Stadiums</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-30">
+                            <div class="media">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="fa fa-user f-s-40 color-danger"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+                                    <h2>196</h2>
+                                    <p class="m-b-0">Players</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- /# column -->
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+
+<div class="cd-schedule loading">
+	<div class="timeline">
+		<ul>
+			<li><span>09:00</span></li>
+			<li><span>09:30</span></li>
+			<li><span>10:00</span></li>
+			<li><span>10:30</span></li>
+			<li><span>11:00</span></li>
+			<li><span>11:30</span></li>
+			<li><span>12:00</span></li>
+			<li><span>12:30</span></li>
+			<li><span>13:00</span></li>
+			<li><span>13:30</span></li>
+			<li><span>14:00</span></li>
+			<li><span>14:30</span></li>
+			<li><span>15:00</span></li>
+			<li><span>15:30</span></li>
+			<li><span>16:00</span></li>
+			<li><span>16:30</span></li>
+			<li><span>17:00</span></li>
+			<li><span>17:30</span></li>
+			<li><span>18:00</span></li>
+			<li><span>18:30</span></li>
+		</ul>
+	</div> <!-- .timeline -->
+
+	<div class="events">
+		<ul class="wrap">
+			<li class="events-group">
+				<div class="top-info"><span>Monday</span></div>
+				<ul>
+					<li class="single-event" data-start="10:00" data-end="11:30" data-content="event-abs-circuit" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Match 1</em>
+						</a>
+					</li>
+                    <li class="single-event" data-start="12:30" data-end="14:00" data-content="" data-event="event-4">
+						<a href="#0">
+							<em class="event-name">Match 2</em>
+						</a>
+					</li>
+                    <li class="single-event" data-start="15:00" data-end="16:30" data-content="event-rowing-workout" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Match 3</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Tuesday</span></div>
+
+				<ul>
+					<li class="single-event" data-start="10:30" data-end="12:00" data-content="event-abs-circuit" data-event="event-4">
+						<a href="#0">
+							<em class="event-name">Match 1</em>
+						</a>
+					</li>
+                    <li class="single-event" data-start="13:30" data-end="15:00" data-content="" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Match 2</em>
+						</a>
+					</li>
+                    <li class="single-event" data-start="15:30" data-end="17:00" data-content="" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Match 3</em>
+						</a>
+					</li>
+                    
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Wednesday</span></div>
+
+				<ul>
+                    <li class="single-event" data-start="09:30" data-end="11:00" data-content="event-abs-circuit" data-event="event-3">
+						<a href="#0">
+							<em class="event-name">Match 1</em>
+						</a>
+					</li>
+                    <li class="single-event" data-start="11:30" data-end="13:00" data-content="" data-event="event-4">
+						<a href="#0">
+							<em class="event-name">Match 2</em>
+						</a>
+					</li>
+                   
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Thursday</span></div>
+
+				<ul>
+					<li class="single-event" data-start="09:30" data-end="11:00" data-content="event-abs-circuit" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Match 1</em>
+						</a>
+					</li>
+                   
+                    <li class="single-event" data-start="14:00" data-end="15:30" data-content="event-rowing-workout" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Match 2</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Friday</span></div>
+
+				<ul>
+					
+                    <li class="single-event" data-start="11:30" data-end="13:00" data-content="" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Match 1</em>
+						</a>
+					</li>
+                    <li class="single-event" data-start="16:30" data-end="18:00" data-content="event-rowing-workout" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Match 2</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+      <!--        -->
+      <li class="events-group">
+				<div class="top-info"><span>Saturday</span></div>
+				<ul>
+					<li class="single-event" data-start="09:30" data-end="11:00" data-content="event-abs-circuit" data-event="event-3">
+						<a href="#0">
+							<em class="event-name">Match 1</em>
+						</a>
+					</li>
+                    
+                    <li class="single-event" data-start="12:00" data-end="13:30" data-content="event-rowing-workout" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Match 2</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+<!--        -->
+      
+      <!--        -->
+      <li class="events-group">
+				<div class="top-info"><span>Sunday</span></div>
+				<ul>
+					<li class="single-event" data-start="10:30" data-end="12:00" data-content="event-abs-circuit" data-event="event-4">
+						<a href="#0">
+							<em class="event-name">Match 1</em>
+						</a>
+					</li>
+                    <li class="single-event" data-start="13:30" data-end="15:00" data-content="" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Match 2</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+<!--        -->
+		</ul>
+	</div>
+
+	<div class="event-modal">
+		<header class="header">
+			<div class="content">
+				<span class="event-date"></span>
+				<h3 class="event-name"></h3>
+			</div>
+
+			<div class="header-bg"></div>
+		</header>
+
+		<div class="body">
+			<div class="event-info"></div>
+			<div class="body-bg"></div>
+		</div>
+
+		<a href="#0" class="close">Close</a>
+	</div>
+
+	<div class="cover-layer"></div>
+</div> <!-- .cd-schedule -->
+
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row bg-white m-l-0 m-r-0 box-shadow ">
+                    
+                    <!-- column -->
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Game and event this week</h4>
+                                <div id="extra-area-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+
+                    <!-- column -->
+                    <!-- column -->
+                </div>
+                </div>
+
+
+                       
+
+
+                <!-- End PAge Content -->
+            </div>
+            <!-- End Container fluid  -->
+            <!-- footer -->
+            <footer class="footer"> © 2018 All rights reserved. Template designed by <a
+                    href="">OVictoire</a></footer>
+            <!-- End footer -->
+        </div>
+        <!-- End Page wrapper  -->
+    </div>
+    <!-- End Wrapper -->
+    <!-- All Jquery -->
+    <script src="js/lib/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="js/lib/bootstrap/js/popper.min.js"></script>
+    <script src="js/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="js/jquery.slimscroll.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="js/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <!--Custom JavaScript -->
+
+
+    <!-- Amchart -->
+    <script src="js/lib/morris-chart/raphael-min.js"></script>
+    <script src="js/lib/morris-chart/morris.js"></script>
+    <script src="js/lib/morris-chart/dashboard1-init.js"></script>
+
+
+    <script src="js/lib/calendar-2/moment.latest.min.js"></script>
+    <!-- scripit init-->
+    <script src="js/lib/calendar-2/semantic.ui.min.js"></script>
+    <!-- scripit init-->
+    <script src="js/lib/calendar-2/prism.min.js"></script>
+    <!-- scripit init-->
+    <script src="js/lib/calendar-2/pignose.calendar.min.js"></script>
+    <!-- scripit init-->
+    <script src="js/lib/calendar-2/pignose.init.js"></script>
+
+    <script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/lib/owl-carousel/owl.carousel-init.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- scripit init-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" ></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/timeline.js"></script>
+
+</body>
+
+</html>

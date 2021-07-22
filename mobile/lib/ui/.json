@@ -1,0 +1,55 @@
+/* 1 */
+{
+    "_id" : ObjectId("6065d3dcd15a94ca27fc64cc"),
+    "name" : "Elite",
+    "description" : "#Elite  Excitement, adrenaline, fans, and a perfectly manicured turf: these are all things that come to mind when thinking about a football stadium. One of the most impressive football stadiums I have ever been to is, \"Old Trafford.\" The first time I went there I was overwhelmed by the size, and beauty of it massive structure. It stands 422 feet high and can seat 60,000 roaring fans. Have you ever been in a football stadium? Have you ever been a fan of a football team? If you have you will know what I am talking about.",
+    "rating" : 4.8,
+    "price" : 70,
+    "positions" : {
+        "lat" : 35.866103,
+        "lng" : 10.607595
+    },
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6065d3edd15a94ca27fc64cd"),
+    "name" : "MoSalah",
+    "description" : "#MoSala  Excitement, adrenaline, fans, and a perfectly manicured turf: these are all things that come to mind when thinking about a football stadium. One of the most impressive football stadiums I have ever been to is, \"Old Trafford.\" The first time I went there I was overwhelmed by the size, and beauty of it massive structure. It stands 422 feet high and can seat 60,000 roaring fans. Have you ever been in a football stadium? Have you ever been a fan of a football team? If you have you will know what I am talking about.",
+    "rating" : 4.8,
+    "price" : 70,
+    "positions" : {
+        "lat" : 35.866203,
+        "lng" : 10.607695
+    },
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6065d3f0d15a94ca27fc64ce"),
+    "name" : "Victoire",
+    "description" : "#Victoire  Excitement, adrenaline, fans, and a perfectly manicured turf: these are all things that come to mind when thinking about a football stadium. One of the most impressive football stadiums I have ever been to is, \"Old Trafford.\" The first time I went there I was overwhelmed by the size, and beauty of it massive structure. It stands 422 feet high and can seat 60,000 roaring fans. Have you ever been in a football stadium? Have you ever been a fan of a football team? If you have you will know what I am talking about.",
+    "rating" : 4.2,
+    "price" : 60,
+    "positions" : {
+        "lat" : 35.866303,
+        "lng" : 10.607651
+    },
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6065d3f3d15a94ca27fc64cf"),
+    "name" : "ooredoo",
+    "description" : "#ooredoo  Excitement, adrenaline, fans, and a perfectly manicured turf: these are all things that come to mind when thinking about a football stadium. One of the most impressive football stadiums I have ever been to is, \"Old Trafford.\" The first time I went there I was overwhelmed by the size, and beauty of it massive structure. It stands 422 feet high and can seat 60,000 roaring fans. Have you ever been in a football stadium? Have you ever been a fan of a football team? If you have you will know what I am talking about.",
+    "rating" : 4.2,
+    "price" : 60,
+    "positions" : {
+        "lat" : 35.866353,
+        "lng" : 10.607671
+    },
+    "__v" : 0
+}
